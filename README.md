@@ -1,6 +1,6 @@
 ﻿# Payments Application
 
-This is a C# application that implements a payments system. It uses clean architecture, domain-driven design (DDD), and layered architecture principles. The application is built with a focus on clean code and SOLID principles.
+This is a C# application that implements a anime management system. It uses clean architecture, domain-driven design (DDD), and layered architecture principles. The application is built with a focus on clean code and SOLID principles.
 
 ## Technologies and Techniques Used
 
@@ -16,9 +16,9 @@ This is a C# application that implements a payments system. It uses clean archit
 
 ## Features
 
-- Create a new bank
-- Retrieve a specific bank by ID
-- Retrieve a list of all banks
+- Create a new anime
+- Retrieve a specific anime by ID
+- Retrieve a list of all animes
 
 ## Setup and Installation
 
@@ -31,7 +31,7 @@ To set up and run this project locally, you'll need to follow these steps:
 
 ## Testing
 
-This project includes unit tests for the `BankAppService` methods. To run the tests, use the following command:
+This project includes unit tests. To run the tests, use the following command:
 
 ```bash
 dotnet test

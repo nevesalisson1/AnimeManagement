@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Infrastructure.CrossCutting.IoC.Animes</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\..\Application\Animes\Application.Animes\Application.Animes.csproj"/>
+        <ProjectReference Include="..\..\..\..\..\Domain\Animes\Domain.Animes\Domain.Animes.csproj"/>
+        <ProjectReference Include="..\..\..\..\Domain\Animes\Infrastructure.Domain.Animes\Infrastructure.Domain.Animes.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+            <HintPath>C:\Users\Alisson\.dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>
